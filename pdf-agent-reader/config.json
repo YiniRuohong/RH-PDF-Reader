@@ -1,0 +1,26 @@
+{
+  "models": {
+    "planner": "gpt-4.1-mini",
+    "executor": "gpt-4.1-mini"
+  },
+  "runtime": {
+    "workspaceDir": "./workspace",
+    "maxConcurrency": 2
+  },
+  "mineru": {
+    "cliPath": "mineru",
+    "args": [],
+    "model": {
+      "name": "mineru-default",
+      "path": ""
+    }
+  },
+  "openai": {
+    "apiBase": "https://api.openai.com/v1",
+    "subscriptionUrl": "",
+    "apiKeyEnv": "OPENAI_API_KEY"
+  },
+  "export": {
+    "defaultFormats": ["md", "json", "html"]
+  }
+}
